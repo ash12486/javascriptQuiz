@@ -1,0 +1,107 @@
+:root 
+
+
+/* Start Quiz page */
+#start-quiz-page {
+    /* Center the page on the screen */
+    margin: 0 auto;
+    width: 600px;
+    background-color: rgb(86, 218, 241);
+    text-align: center;
+  }
+  
+  /* Start Quiz page title */
+  #start-quiz-page h1 {
+    /* Style the title */
+    color: rgb(143, 66, 231);
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  /* Start Quiz page message */
+  #start-quiz-page p {
+    /* Style the first sentence */
+    color: #333;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0;
+  }
+
+  /* Start Quiz page message */
+  #start-quiz-page #list {
+      /* Style the list */
+      color: #333;
+      font-size: 16px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 20px 0;
+      text-align: center;
+  }
+
+  /* Start Quiz page button */
+  #start-quiz-page button {
+      /* Style the button */
+      background-color: rgb(200, 167, 238);
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      font-size: 24px;
+      padding: 10px 20px;
+      text-align: center;
+  }
+
+  /* Quiz form */
+  #question {
+    /* Center the form on the page */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: 36px;
+    padding: 20px;
+    width: 600px;
+    font-size: larger; 
+    text-align: center;
+  }
+  
+  /* Quiz questions and answer options */
+  #choices {
+    /* Style the questions and answers */
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    font-size: 24px;
+    margin: auto;
+    text-align: center;
+  }
+  
+    /* Start Quiz page button */
+  .answers button {
+      /* Style the button */
+  background-color: rgb(200, 167, 238);
+  border: auto;
+  color: #fff;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px 30px;
+  margin: 20px;
+  }
+  
+  /* Quiz timer */
+  #quiz-timer {
+    /* Style the timer */
+    color: #f00;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Quiz results */
+  #end-screen {
+    /* Style the results */
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  

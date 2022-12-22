@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Quiz</title>
+    <link rel="stylesheet" href="/assets/style.css" />
+  </head>
+  <body>
+    <!-- Start Quiz page -->
+    <header>
+      <div id="start-quiz-page" style="display: block">
+        <h1>JavaScript Quiz</h1>
+        <p>This is a timed quiz with multiple-choice questions. <br /></p>
+        <ul id="list" style="display: block">
+          <li style="list-style-type: none">
+            You have 60 seconds to answer as many questions as possible.
+          </li>
+          <li style="list-style-type: none">
+            Each correct answer will add 1 point to your score.
+          </li>
+          <li style="list-style-type: none">
+            Each incorrect answer will subtract 10 seconds from the remaining
+            time.
+          </li>
+          <li style="list-style-type: none">
+            When the time is up or all questions have been answered, the game
+            will be over and you will be able to save your score.
+          </li>
+        </ul>
+        <p>Good luck!</p>
+        <br />
+        <!--Start button-->
+        <button id="start-button">Start Quiz</button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Quiz content -->
+      <div id="question" class="questions"></div>
+      <div id="choices" class="answers"></div>
+
+    <!--Quiz timer-->
+        <p>Time remaining: <span id="quiz-timer">60</span> seconds</p>
+
+      <!-- End screen -->
+      <div id="end-screen" style="display: none">
+        <p>Quiz Over!</p>
+        <form id="initials-form">
+          <label for="initials">Enter your initials:</label>
+          <input type="text" id="initials" />
+          <button type="submit" id="save">Save</button>
+        </form>
+
+      </div>
+    </main>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
