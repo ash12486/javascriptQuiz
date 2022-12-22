@@ -23,7 +23,9 @@ THEN I can save my initials and score
 ```
 
 ## SCREENSHOTS
-
+![Home Page](./assets/img/image.1.jpg)
+![Questions](./assets/img/image.2.jpg)
+![Final Page](./assets/img/image.3.jpg)
 
 ## MOCK-UP IMAGE
 The following animation demonstrates the application functionality:
