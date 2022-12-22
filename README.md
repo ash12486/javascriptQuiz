@@ -30,5 +30,3 @@ THEN I can save my initials and score
 ## MOCK-UP IMAGE
 The following animation demonstrates the application functionality:
 ![Final result](./assets/images/../img/04-web-apis-homework-demo.gif)
-
-## DESIGNER NOTES
